@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+}
+body{
+  color: #4d0047;
+}
+
+.container{
+  margin-top: 90px;
+  justify-content: center;
+  text-align: center;
+  color: #4d0047;
+}
+.logo{
+  width: 80px;
+}
+.logo1{
+  width: 100px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(95, 65, 0, 0.1)
+}
+.banner video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    z-index: -1;
+    padding-bottom: 50px;
+}
+.logo{
+  cursor: pointer;
+  width: 50px;
+}
+li,a,button{
+  font-family: 'Playfair Display' serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: none;
+  color: #edf0f1;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 10%;
+  padding-top: 20px;
+}
+.Nav_bar li{
+  display: inline-block;
+  list-style: none;
+  padding: 0 15px;
+  letter-spacing: 2px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.navbar a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar a {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.Nav_bar li a{
+  transition: all 0.3s ease 0s;
+}
+.Nav_bar li a:hover{
+  color: rgb(252,50,0);
+}
+button{
+  border-style: none;
+  padding: 9px 10px;
+  border-radius: 50px;
+  background-color: rgba(0,136,169,0.8);
+  cursor: pointer;
+  transition: all 0.3s ease 0s
+}
+button:hover{
+  color: rgba(0,136,169,1);
+}
+
+ul #sign{
+    background-color: rgb(252,50,0);
+}
+ul #sign:hover{
+    background: transparent;
+    border: 10px solid rgb(252,50,0);
+    padding: 11px 19px;
+}
+.main{
+    align-items: center;
+    text-align: center;
+    margin-top: 25vh;
+}
+.main h3{
+    font-size: 20px;
+}
+.main h1{
+    font-size: 80px;
+    padding: 25px 0px;
+    font-weight: bold;
+    font-family: 'Playfair Display' serif;
+    color: #ffffff;
+}
+.main h1 span{
+    color: rgb(252,50,0);
+}
+button{
+    padding: 15px 20px;
+    background: rgb(252,50,0);
+    border: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+button:hover{
+    background: transparent;
+    border: 1.5px solid rgb(252,50,0);
+    color: rgb(252,50,0);
+}
+
+table.GeneratedTable {
+  width: 20%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #c7c2c2;
+  border-style: solid;
+  color: #37024b;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 1px;
+  border-color: #c7c2c2;
+  border-style: solid;
+  padding: 4px;
+}
+
+table.GeneratedTable thead {
+  background-color: #ffffff;
+}
+.wait td{
+  color: #4d0047;
+}
+td a:hover {
+    text-decoration: none;
+    color: inherit;
+
+@media only screen and (max-width: 60em) {
+  body {
+    padding: 3rem;
+  }
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
